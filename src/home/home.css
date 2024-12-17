@@ -1,0 +1,23 @@
+.introduction-tech {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 40px;
+}
+
+.intro-title {
+    font-size: 24px;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(0, 0, 0, 0.836);
+    flex-basis: 400px;
+    text-align: center;
+}
+
+.intro-desc {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(0, 0, 0, 0.438);
+    flex: 1;
+}

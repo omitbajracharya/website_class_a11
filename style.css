@@ -1,0 +1,54 @@
+/* Global CSS Here */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.red-color {
+    color: #DE4226;
+}
+
+header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.affilated-to {
+    color: red;
+    font-weight: 700;
+}
+.class-name {
+    color: #225c18;
+}
+.offering {
+    color: #00f;
+}
+#dedicating-to {
+    color: #056805;
+}
+.nav-link {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    flex-wrap: wrap; /* if content will not be able to fit on single line, break line */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #f5e67c3d;
+    a {
+        text-decoration: none;
+        color: red;
+        font-size: 23px;
+        white-space: nowrap;  /* To put content in single line */
+    }
+    > span {
+        color: green;
+        font-weight: 700;
+        font-size: 23px;
+    }
+}
+.nav-link:hover {
+    color: red;
+}
