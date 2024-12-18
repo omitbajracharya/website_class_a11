@@ -12,8 +12,6 @@
         flex-shrink: 0;
     }
     .tbl-str-down {
-        border-collapse: collapse;
-        padding: 10px;
         thead {
             background-color: blue;
             color: white;
@@ -34,4 +32,11 @@ td,th {
 
 .down-tbl-wrapper {
    padding: 40px;
+}
+
+.list-wrapper {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    flex-wrap: wrap;
 }

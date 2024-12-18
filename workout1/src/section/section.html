@@ -160,6 +160,37 @@
             
             <div style="border: 1px solid green;padding: 10px;">
                 <span style="color: rgb(22, 70, 70);text-align: center;font-size: 30px;font-weight: 600;">Position Workout Here...</span>
+                <div class="input-fit-eye">
+                  <div style="position: relative; border: 1px solid red; width: fit-content">
+                    <svg
+                      width="15px"
+                      height="15px"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style="position: absolute; right: 2px; top: 10px"
+                    >
+                      <path
+                        d="M15.0007 12C15.0007 13.6569 13.6576 15 12.0007 15C10.3439 15 9.00073 13.6569 9.00073 12C9.00073 10.3431 10.3439 9 12.0007 9C13.6576 9 15.0007 10.3431 15.0007 12Z"
+                        stroke="#000000"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M12.0012 5C7.52354 5 3.73326 7.94288 2.45898 12C3.73324 16.0571 7.52354 19 12.0012 19C16.4788 19 20.2691 16.0571 21.5434 12C20.2691 7.94291 16.4788 5 12.0012 5Z"
+                        stroke="#000000"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    <input
+                      type="text"
+                      style="padding-top: 10px; padding-bottom: 10px; padding-right: 20px;padding-left: 5px;"
+                    />
+                  </div>
+                </div>
                 <div class="position-workout">
                     <div class="pos-work-1">
                         <div>
@@ -319,6 +350,58 @@
                     </div>
                 </div>
             </div>
+
+            <div style="border: 1px solid rgb(54, 9, 9);padding: 30px;">
+              <span style="color: rgb(22, 70, 70);text-align: center;font-size: 30px;font-weight: 600;">List Workout Here...</span>
+              <div class="list-wrapper">
+                <ol id="out" type="1">
+                  <li>Asia</li>
+                  <ol class="inner" type="a">
+                    <li>Nepal</li>
+                    <li>China</li>
+                    <li>Japan</li>
+                    <li>Korea</li>
+                  </ol>
+                  <li>South America</li>
+                  <ol class="inner" type="a">
+                    <li>USA</li>
+                    <li>Canada</li>
+                  </ol>
+                  <li>Europe</li>
+                  <ol class="inner" type="a">
+                    <li>Norway</li>
+                    <li>Sweden</li>
+                    <li>Finland</li>
+                  </ol>
+                </ol>
+                <ul>
+                  <li>first item</li>
+                  <li>
+                    second item
+                    <!-- Look, the closing </li> tag is not placed here! -->
+                    <ul>
+                      <li>second item first subitem</li>
+                      <li>
+                        second item second subitem
+                        <!-- Same for the second nested unordered list! -->
+                        <ul>
+                          <li>second item second subitem first sub-subitem</li>
+                          <li>second item second subitem second sub-subitem</li>
+                          <li>second item second subitem third sub-subitem</li>
+                        </ul>
+                      </li>
+                      <!-- Closing </li> tag for the li that
+                                  contains the third unordered list -->
+                      <li>second item third subitem</li>
+                    </ul>
+                    <!-- Here is the closing </li> tag -->
+                  </li>
+                  <li>third item</li>
+                </ul>
+              </div>
+            </div>
+            
+         
         </div>
     </div>    
             
