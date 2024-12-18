@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/src/section/section.css">
 </head>
 <body>
-    <div>
+    <div class="main-wrapper">
         <header>
             <h1 class="college-name">Techspire</h1>
             <p class="affilated-to">IT College</p>
@@ -32,128 +32,295 @@
             <span>|</span>
             <a href="/src/contact-us/contact-us.html">Contact Us</a>
         </nav>
-        <div class="tbl-wrapper">
-            <table border="1" cell-spacing="0" cellpadding="10" class="tbl-str">
-                <thead>
-                    <tr>
-                        <th rowspan="3" colspan="2">A</th>
-                        <th rowspan="2" colspan="2">B</th>
-                        <th colspan="3">C</th>
-                    </tr>
-                    <tr>
-                        <th colspan="2">D</th>
-                        <th>E</th>
-                    </tr>
-                    <tr>
-                        <th colspan="2">F</th>
-                        <th>G</th>
-                        <th>H</th>
-                        <th>I</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>5</td>  
-                        <td>6</td>
-                        <td>7</td>  
-                    </tr>
-                    <tr>
-                        <td>8</td>
-                        <td>9</td>
-                        <td>10</td>
-                        <td>11</td>
-                        <td>12</td>  
-                        <td>13</td>
-                        <td>14</td>  
-                    </tr>
-                </tbody>
-            </table>
-            <table border="1" cell-spacing="0" cellpadding="10" class="tbl-str">
-                <thead>
-                    <tr>
-                        <th rowspan="3">Subject</th>
-                        <th colspan="5">Examination Schedule</th>
-                    </tr>
-                    <tr>
-                        <th colspan="2">Internal Assessment</th>
-                        <th colspan="2">Final Assessment</th>
-                        <th rowspan="2">Total</th>
-                    </tr>
-                    <tr>
-                        <th>Theory</th>
-                        <th>Practical</th>
-                        <th>Theory</th>
-                        <th>Practical</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>FOSP</td>
-                        <td>20</td>
-                        <td>50</td>
-                        <td>80</td>
-                        <td>-</td>
-                        <td>150</td>
-                    </tr>
-                    <tr>
-                        <td>HTML</td>
-                        <td>30</td>
-                        <td>70</td>
-                        <td>60</td>
-                        <td>50</td>
-                        <td>80</td>
-                    </tr>
-                </tbody>
-            </table>
-              
+        <div style="display: flex;flex-direction: column; gap: 20px;padding: 10px;">
+            <div style=" border: 1px solid blue;padding: 10px;">
+                <span style="color: rgb(22, 70, 70);text-align: center;font-size: 30px;font-weight: 600;">Flex workout Here...Also you can see the nav link for the flex.</span>
+                <div class="tbl-wrapper">
+                    <table border="1" cell-spacing="0" cellpadding="10" class="tbl-str">
+                        <thead>
+                            <tr>
+                                <th rowspan="3" colspan="2">A</th>
+                                <th rowspan="2" colspan="2">B</th>
+                                <th colspan="3">C</th>
+                            </tr>
+                            <tr>
+                                <th colspan="2">D</th>
+                                <th>E</th>
+                            </tr>
+                            <tr>
+                                <th colspan="2">F</th>
+                                <th>G</th>
+                                <th>H</th>
+                                <th>I</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>4</td>
+                                <td>5</td>  
+                                <td>6</td>
+                                <td>7</td>  
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>9</td>
+                                <td>10</td>
+                                <td>11</td>
+                                <td>12</td>  
+                                <td>13</td>
+                                <td>14</td>  
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table border="1" cell-spacing="0" cellpadding="10" class="tbl-str">
+                        <thead>
+                            <tr>
+                                <th rowspan="3">Subject</th>
+                                <th colspan="5">Examination Schedule</th>
+                            </tr>
+                            <tr>
+                                <th colspan="2">Internal Assessment</th>
+                                <th colspan="2">Final Assessment</th>
+                                <th rowspan="2">Total</th>
+                            </tr>
+                            <tr>
+                                <th>Theory</th>
+                                <th>Practical</th>
+                                <th>Theory</th>
+                                <th>Practical</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>FOSP</td>
+                                <td>20</td>
+                                <td>50</td>
+                                <td>80</td>
+                                <td>-</td>
+                                <td>150</td>
+                            </tr>
+                            <tr>
+                                <td>HTML</td>
+                                <td>30</td>
+                                <td>70</td>
+                                <td>60</td>
+                                <td>50</td>
+                                <td>80</td>
+                            </tr>
+                        </tbody>
+                    </table>
+        
+                    <table border="1" cell-spacing="0" cellpadding="10" class="tbl-str tbl-str-down">
+                        <thead>
+                            <tr>
+                                <th>S.N</th>
+                                <th>Techspire Circle</th>
+                                <th>Location</th>
+                                <th>Principal</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Circle A</td>
+                                <td>New York</td>
+                                <td>John Doe</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Circle B</td>
+                                <td>Los Angeles</td>
+                                <td>Jane Smith</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Circle C</td>
+                                <td>Chicago</td>
+                                <td>Mark Johnson</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Circle D</td>
+                                <td>San Francisco</td>
+                                <td>Emily Davis</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Circle E</td>
+                                <td>Miami</td>
+                                <td>Michael Brown</td>
+                            </tr>
+                        </tbody>
+                    </table>    
+                </div>
+            </div>
+            
+            <div style="border: 1px solid green;padding: 10px;">
+                <span style="color: rgb(22, 70, 70);text-align: center;font-size: 30px;font-weight: 600;">Position Workout Here...</span>
+                <div class="position-workout">
+                    <div class="pos-work-1">
+                        <div>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo nulla porro velit a non repellendus expedita. Ipsa consequatur asperiores eligendi, nesciunt voluptatibus possimus, aut temporibus cupiditate commodi repellendus nisi reprehenderit beatae veritatis quidem non amet repudiandae unde? Vitae perferendis atque voluptates praesentium fugiat corrupti dolores, blanditiis, voluptatibus quibusdam ullam nihil corporis dignissimos est laboriosam illum suscipit rem? Quibusdam sapiente voluptas laborum beatae ipsa dolor nulla doloremque perferendis dolorem repellendus, blanditiis corporis nemo ducimus numquam aperiam totam consequuntur eligendi eum animi repellat labore culpa itaque voluptatum? Maxime commodi quidem, rem provident eaque temporibus laudantium. Veniam mollitia vero eius ratione excepturi fugit expedita quisquam cupiditate necessitatibus voluptates? Repudiandae, voluptas ut delectus eos reprehenderit maiores nisi soluta laboriosam sint rem illo explicabo, sapiente, sed officiis aut quae placeat error esse itaque iure! Ex doloremque nobis exercitationem suscipit repellat tempora labore blanditiis asperiores? Cupiditate accusantium labore voluptates amet sed, ipsa rem laborum omnis. Deserunt exercitationem voluptate facilis provident fugiat! Praesentium harum tempore molestiae cum eum eveniet accusantium illum voluptate, saepe nobis. Autem consequuntur facilis sunt aut voluptates fugit? Placeat ratione esse molestias quibusdam velit nihil dicta, corporis facilis corrupti ea reprehenderit adipisci, aperiam obcaecati officia. Rerum odit, repellat molestiae aut soluta nisi aliquam impedit?
+                        </div>
+                        <div style="overflow: auto; max-height: 70dvh;border: 1px solid blue;">
+                            <table border="2px" cellpadding="0" cellspacing="0" class="table-dynamic align-items-center w-100" style="width: 100%;">
+                                <thead style="background-color: #F3F6FA; position: sticky; top: 0; z-index: 1;" >  
+                                    <tr >
+                                        <th  class="head-column-table  text-dark text-sm"> S.N </th>  
+                                        <th>1</th>
+                                        <th>2</th>
+                                    </tr>
+                                </thead>
+                                <tbody style="min-height: 300px;isolation: isolate;">
+                                  <tr>
+                                    <td>a</td>
+                                    <td>b</td>
+                                    <td>c</td>
+                                  </tr>
+                                  <tr>
+                                    <td>a</td>
+                                    <td>b</td>
+                                    <td>c</td>
+                                  </tr><tr>
+                                    <td>a</td>
+                                    <td>b</td>
+                                    <td>c</td>
+                                  </tr><tr>
+                                    <td>a</td>
+                                    <td>b</td>
+                                    <td>c</td>
+                                  </tr><tr>
+                                    <td>a</td>
+                                    <td>b</td>
+                                    <td>c</td>
+                                  </tr><tr>
+                                    <td>a</td>
+                                    <td>b</td>
+                                    <td>c</td>
+                                  </tr><tr>
+                                    <td>a</td>
+                                    <td>b</td>
+                                    <td>c</td>
+                                  </tr><tr>
+                                    <td>a</td>
+                                    <td>b</td>
+                                    <td>c</td>
+                                  </tr><tr>
+                                    <td>a</td>
+                                    <td>b</td>
+                                    <td>c</td>
+                                  </tr><tr>
+                                    <td>a</td>
+                                    <td>b</td>
+                                    <td>c</td>
+                                  </tr><tr>
+                                    <td>a</td>
+                                    <td>b</td>
+                                    <td>c</td>
+                                  </tr><tr>
+                                    <td>a</td>
+                                    <td>b</td>
+                                    <td>c</td>
+                                  </tr><tr>
+                                    <td>a</td>
+                                    <td>b</td>
+                                    <td>c</td>
+                                  </tr><tr>
+                                    <td>a</td>
+                                    <td>b</td>
+                                    <td>c</td>
+                                  </tr><tr>
+                                    <td>a</td>
+                                    <td>b</td>
+                                    <td>c</td>
+                                  </tr><tr>
+                                    <td>a</td>
+                                    <td>b</td>
+                                    <td>c</td>
+                                  </tr><tr>
+                                    <td>a</td>
+                                    <td>b</td>
+                                    <td>c</td>
+                                  </tr><tr>
+                                    <td>a</td>
+                                    <td>b</td>
+                                    <td>c</td>
+                                  </tr>
+                                  <tr>
+                                    <td>a</td>
+                                    <td>b</td>
+                                    <td>c</td>
+                                  </tr><tr>
+                                    <td>a</td>
+                                    <td>b</td>
+                                    <td>c</td>
+                                  </tr><tr>
+                                    <td>a</td>
+                                    <td>b</td>
+                                    <td>c</td>
+                                  </tr><tr>
+                                    <td>a</td>
+                                    <td>b</td>
+                                    <td>c</td>
+                                  </tr><tr>
+                                    <td>a</td>
+                                    <td>b</td>
+                                    <td>c</td>
+                                  </tr><tr>
+                                    <td>a</td>
+                                    <td>b</td>
+                                    <td>c</td>
+                                  </tr><tr>
+                                    <td>a</td>
+                                    <td>b</td>
+                                    <td>c</td>
+                                  </tr><tr>
+                                    <td>a</td>
+                                    <td>b</td>
+                                    <td>c</td>
+                                  </tr><tr>
+                                    <td>a</td>
+                                    <td>b</td>
+                                    <td>c</td>
+                                  </tr><tr>
+                                    <td>a</td>
+                                    <td>b</td>
+                                    <td>c</td>
+                                  </tr><tr>
+                                    <td>a</td>
+                                    <td>b</td>
+                                    <td>c</td>
+                                  </tr><tr>
+                                    <td>a</td>
+                                    <td>b</td>
+                                    <td>c</td>
+                                  </tr><tr>
+                                    <td>a</td>
+                                    <td>b</td>
+                                    <td>c</td>
+                                  </tr><tr>
+                                    <td>a</td>
+                                    <td>b</td>
+                                    <td>c</td>
+                                  </tr><tr>
+                                    <td>a</td>
+                                    <td>b</td>
+                                    <td>c</td>
+                                  </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis laborum debitis sint nihil reprehenderit pariatur sed ut est laboriosam, id, perferendis cum commodi architecto reiciendis ad dicta tempore rem repellat eveniet veniam esse recusandae! Culpa molestias quasi tenetur aperiam eligendi necessitatibus totam sed blanditiis ipsa tempora nesciunt praesentium porro optio, numquam quod expedita autem nulla placeat animi, illum iste sint laudantium qui voluptatem? Alias magnam dolore, neque voluptatum blanditiis incidunt quos cum excepturi iste minus perspiciatis similique asperiores dolorem vel repellendus nesciunt error quis, possimus impedit iure tempora. At veritatis rem dignissimos cumque harum deserunt, vero voluptate non nisi soluta necessitatibus tempore deleniti quam accusamus distinctio vitae velit mollitia perspiciatis! Tempora natus iste inventore ipsa dolorum eligendi. Soluta magnam voluptate odit quasi eum cupiditate qui amet delectus incidunt? Aliquid tenetur dolores consequuntur quia amet, facilis qui fugit. Doloribus natus at consectetur optio, esse sit voluptates provident quaerat quos. Ullam officia esse quos. Possimus aperiam tempore harum amet facere neque accusamus labore libero alias exercitationem et magni molestias autem consequuntur odio voluptates, pariatur cum quod molestiae mollitia doloremque sint reiciendis? Quasi atque reprehenderit obcaecati suscipit, voluptatem tempore optio quaerat, debitis dolore nesciunt laboriosam sit ab in. At et similique quo totam dolor. Nemo quaerat laudantium sed quos, nesciunt alias culpa voluptatibus quo! Iure voluptatibus provident eum beatae? Hic beatae quas harum veritatis nemo laboriosam consequatur, facere nisi non atque! Nam recusandae molestias numquam perferendis ipsa non. Consequatur labore quibusdam expedita esse consectetur quam accusantium mollitia. Ipsa consequuntur minus molestiae reiciendis odio maiores voluptates, iusto asperiores. Necessitatibus eligendi iste blanditiis dolorem qui labore maxime esse, asperiores sunt provident similique ratione. Unde magni eius autem officiis ea, reprehenderit deleniti magnam ducimus maiores id, odio nesciunt quasi molestiae amet dolor ipsa quidem ex alias quae asperiores? Voluptas laudantium minus nulla, atque cupiditate laborum impedit illo porro eum aperiam voluptatibus, vero eligendi facilis. Nam earum cumque quo dicta, exercitationem sunt doloremque asperiores, suscipit mollitia at quam odit? Facilis ab repellendus, recusandae magnam pariatur nihil eum quisquam atque similique aut, blanditiis consequuntur? Dolor nihil praesentium vero odit eaque odio quibusdam rem dicta iure? Voluptatem officia eum, excepturi sed praesentium recusandae! Blanditiis alias explicabo aspernatur quam animi. Quis provident esse iste optio ut eveniet quam ratione voluptate? Culpa, cupiditate accusamus? Amet possimus laboriosam tempora assumenda totam itaque tempore laborum obcaecati dicta officiis, libero veniam doloremque dolorem aliquam iure ad placeat sunt. Perferendis laudantium architecto totam in necessitatibus assumenda veniam nulla sed animi! Corporis quae molestiae labore ullam minus. Enim eos facilis cum eum corrupti magni animi, excepturi ipsum quod nesciunt, officia iusto ipsa error dolorem eligendi et assumenda iste cupiditate, rem sit sequi exercitationem neque. Perspiciatis sequi omnis esse voluptas deserunt voluptatibus recusandae laudantium totam reprehenderit dignissimos consequatur dolor, dolorem animi, vel tempore voluptate, eos facere quae nihil soluta illum a repellendus temporibus? At quis perspiciatis distinctio, asperiores deserunt, aut debitis magnam voluptate et sed beatae corporis commodi ea eaque in suscipit, maxime laboriosam impedit a! Impedit sunt quis consectetur incidunt labore. Molestiae, voluptates. Nulla, est delectus.
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="down-tbl-wrapper">
-            <table border="1" cell-spacing="0" cellpadding="10" class="tbl-str-down">
-            <thead>
-                <tr>
-                    <th>S.N</th>
-                    <th>Techspire Circle</th>
-                    <th>Location</th>
-                    <th>Principal</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>Circle A</td>
-                    <td>New York</td>
-                    <td>John Doe</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Circle B</td>
-                    <td>Los Angeles</td>
-                    <td>Jane Smith</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Circle C</td>
-                    <td>Chicago</td>
-                    <td>Mark Johnson</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Circle D</td>
-                    <td>San Francisco</td>
-                    <td>Emily Davis</td>
-                </tr>
-                <tr>
-                    <td>5</td>
-                    <td>Circle E</td>
-                    <td>Miami</td>
-                    <td>Michael Brown</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+    </div>    
+            
 </body>
 </html>

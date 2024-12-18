@@ -1,27 +1,31 @@
 .tbl-wrapper {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 20px;
+    flex-wrap: wrap;
     padding: 10px;
+
     .tbl-str {
         border-collapse: collapse;
-        flex: 1;
+        /* flex: 1; */
+        flex-basis: 500px;
+        flex-shrink: 0;
     }
-}
-
-.tbl-str-down {
-    border-collapse: collapse;
-    padding: 10px;
-    thead {
-        background-color: blue;
-        color: white;
-    }
-    tbody {
-        tr:nth-child(odd) {
-            background-color: aqua;
+    .tbl-str-down {
+        border-collapse: collapse;
+        padding: 10px;
+        thead {
+            background-color: blue;
+            color: white;
+        }
+        tbody {
+            tr:nth-child(odd) {
+                background-color: aqua;
+            }
         }
     }
 }
+
 
 td,th {
     padding: 5px;
